@@ -59,7 +59,6 @@ class Trabajador {
         System.out.println("Fecha de nacimiento: " + fechaNacimiento);
         System.out.println("Puesto: " + puesto);
         System.out.println("Localización: " + localizacion);
-        // Otros datos...
     }
 
     public void modificarDatos(String nuevoNombre, String nuevosApellidos, String nuevaFechaNacimiento,
