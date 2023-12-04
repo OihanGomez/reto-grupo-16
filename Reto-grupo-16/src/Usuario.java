@@ -14,7 +14,7 @@ class Usuario {
 
     public void agregarPuntosGastados(int puntosGastados) {
         historialPuntosGastados.add(puntosGastados);
-        puntos -= puntosGastados; // Restar los puntos gastados del total de puntos acumulados
+        puntos -= puntosGastados;
     }
     public Usuario() {
         this.puntos = 0;
@@ -24,7 +24,6 @@ class Usuario {
         return viajesRealizados;
     }
     public String getNombre() {
-        // Retorna el nombre del usuario
         return nombre;
     }
     public int getPuntos() {
